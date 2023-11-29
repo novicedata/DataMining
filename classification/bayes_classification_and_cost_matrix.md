@@ -88,7 +88,7 @@ $$
 
 $$  
 \\begin{align}  
-f(\\textbf{x\_0}) &= \\arg \\max\_{y \\in 1,2,3} p(y|\\textbf{x}\_0)  
+f(\\textbf{x}_0) &= \\arg \\max\_{y \\in 1,2,3} p(y|\\textbf{x}\_0)  
 \\end{align}  
 $$
 
