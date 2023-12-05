@@ -20,12 +20,12 @@
 
 | 정확도(Accuracy) | $\\dfrac{TP + TN}{Whole}$ |
 | --- | --- |
-| 민감도(Sensitivity) | $ \\dfrac{TP}{TP+FN} $ |
-| 특이도(Specificity) | $ \\dfrac{TN}{TN+FP} $ |
-| PPV(Positive Predictive Value), 정밀도(Precision) | $ \\dfrac{TP}{TP+FP} $ |
-| NPV(Negative Predictive Value), 재현율(Recall) | $ \\dfrac{TN}{TN+FN} $ |
-| Balanced Accuracy | $ \\dfrac{\\text{Sensitivity + Specificity}}{2} $ |
-| $F\_\\beta$ | $ F\_\\beta = \\dfrac{(1+\\beta^2) \\times \\text{Precision} \\times \\text{Recall}}{(\\beta^2 \\times \\text{Precision}) + \\text{Recall}} $ |
+| 민감도(Sensitivity) | $\\dfrac{TP}{TP+FN}$ |
+| 특이도(Specificity) | $\\dfrac{TN}{TN+FP}$ |
+| PPV(Positive Predictive Value), 정밀도(Precision) | $\\dfrac{TP}{TP+FP}$ |
+| NPV(Negative Predictive Value), 재현율(Recall) | $\\dfrac{TN}{TN+FN}$ |
+| Balanced Accuracy | $\\dfrac{\\text{Sensitivity + Specificity}}{2}$ |
+| $F\_\\beta$ | $F\_\\beta = \\dfrac{(1+\\beta^2) \\times \\text{Precision} \\times \\text{Recall}}{(\\beta^2 \\times \\text{Precision}) + \\text{Recall}}$ |
 
 ◾ **정확도(Accuracy)** : 정확도는 TP+FP+FN+TN인 전체 값대 옳은 예측을 했던 TP와 TN을 더한 비율.
 
